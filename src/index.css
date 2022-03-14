@@ -16,4 +16,32 @@ body {
   --main-text-color: #fff;
   --text-background: #000;
   --borders-color: #fff;
+
+  --padding: 5px;
+
+  --text-font-size: 20px;
+  --heading-font-size: 25px;
+}
+
+.component-setting {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --padding: 10px;
+
+    --text-font-size: 25px;
+    --heading-font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --padding: 10px;
+
+    --text-font-size: 25px;
+    --heading-font-size: 30px;
+  }
 }
