@@ -56,7 +56,7 @@
   }
 
   .about-me__text_type_second {
-    border: 1px solid var(--borders-color);
+    border-bottom: 1px solid var(--borders-color);
     padding: 5px;
   }
 }

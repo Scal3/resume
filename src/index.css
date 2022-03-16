@@ -39,7 +39,7 @@ body {
 
 @media screen and (min-width: 768px) {
   :root {
-    --padding: 10px;
+    --padding: 15px;
 
     --text-font-size: 25px;
     --heading-font-size: 30px;

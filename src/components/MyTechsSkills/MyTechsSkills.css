@@ -1,0 +1,73 @@
+.my-techs-skills {
+  padding: var(--padding);
+  border-bottom: 1px solid var(--borders-color);
+}
+
+.my-techs-skills__heading {
+  font-size: var(--heading-font-size);
+  color: var(--main-text-color);
+  position: relative;
+}
+
+.my-techs-skills__heading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70px;
+  background-color: var(--text-background);
+  z-index: -1;
+}
+
+.my-techs-skills__list {
+  margin-top: 15px;
+  list-style: none;
+}
+
+.my-techs-skills__list-item {
+  color: var(--main-text-color);
+  margin-bottom: 5px;
+  font-size: var(--text-font-size);
+}
+
+.my-techs-skills__item-container {
+  display: flex;
+  height: 30px;
+}
+
+.my-techs-skills__list-text {
+  color: var(--main-text-color);
+}
+
+.my-techs-skills__item-img {
+  display: none;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .my-techs-skills__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my-techs-skills__list-item {
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .my-techs-skills__list-item_position_right {
+    align-self: flex-end;
+  }
+
+  .my-techs-skills__item-img {
+    display: block;
+    margin-left: 5px;
+  }
+}
