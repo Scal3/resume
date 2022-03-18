@@ -1,0 +1,21 @@
+.my-projects {
+  border-bottom: 1px solid var(--borders-color);
+  padding: var(--padding);
+}
+
+.my-projects__heading {
+  font-size: var(--heading-font-size);
+  color: var(--main-text-color);
+  position: relative;
+}
+
+.my-projects__heading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70px;
+  background-color: var(--text-background);
+  z-index: -1;
+}

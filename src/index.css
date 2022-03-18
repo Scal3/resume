@@ -16,8 +16,10 @@ body {
   --main-text-color: #fff;
   --text-background: #000;
   --borders-color: #fff;
+  --links-color: #000;
+  --links-background: rgba(255, 255, 255, 0.5);
 
-  --padding: 5px;
+  --padding: 15px 5px 15px 5px;
 
   --text-font-size: 20px;
   --heading-font-size: 25px;
@@ -37,7 +39,7 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   :root {
     --padding: 15px;
 
