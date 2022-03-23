@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import AboutMe from '../AboutMe/AboutMe';
 import MyTechsSkills from '../MyTechsSkills/MyTechsSkills';
 import MyProjects from '../MyProjects/MyProjects';
+import WorkExperience from '../WorkExperience/WorkExperience';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <AboutMe/>
       <MyTechsSkills/>
       <MyProjects/>
+      <WorkExperience/>
     </div>
   );
 }

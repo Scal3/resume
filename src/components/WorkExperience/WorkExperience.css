@@ -1,0 +1,37 @@
+.work-experience {
+  padding: var(--padding);
+  border-bottom: 1px solid var(--borders-color);
+}
+
+.work-experience__heading {
+  font-size: var(--heading-font-size);
+  color: var(--main-text-color);
+  position: relative;
+}
+
+.work-experience__heading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70px;
+  background-color: var(--text-background);
+  z-index: -1;
+}
+
+.work-experience__job-heading {
+  color: var(--main-text-color);
+  margin: 10px 0 10px 0;
+  background-color: var(--text-background);
+  width: fit-content;
+  font-size: var(--heading-font-size);
+}
+
+.work-experience__description {
+  color: var(--second-text-color);
+  background-color: var(--second-background-color);
+  width: fit-content;
+  max-width: 768px;
+  font-size: var(--text-font-size);
+}
