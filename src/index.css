@@ -36,8 +36,8 @@ body {
   :root {
     --padding: 10px;
 
-    --text-font-size: 25px;
-    --heading-font-size: 30px;
+    --text-font-size: 30px;
+    --heading-font-size: 40px;
   }
 }
 
@@ -45,7 +45,7 @@ body {
   :root {
     --padding: 15px;
 
-    --text-font-size: 25px;
-    --heading-font-size: 30px;
+    --text-font-size: 35px;
+    --heading-font-size: 50px;
   }
 }
