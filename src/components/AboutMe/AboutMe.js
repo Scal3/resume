@@ -10,7 +10,7 @@ const AboutMe = () => {
   return (
     <section className='about-me component-setting'>
       <div className='about-me__container'>
-        <h2 className='about-me__heading'>
+        <h2 className='about-me__heading component-heading'>
           Little bit about me
         </h2>
         <p className='about-me__text'>

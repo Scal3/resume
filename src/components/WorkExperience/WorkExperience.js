@@ -5,7 +5,7 @@ import React from 'react'
 const WorkExperience = () => {
   return (
     <section className='work-experience component-setting'>
-      <h2 className='work-experience__heading'>My work experience</h2>
+      <h2 className='work-experience__heading component-heading'>My work experience</h2>
 
       <div className='work-experience__work-box'>
         <h3 className='work-experience__job-heading'>My first job was a jewelry seller</h3>

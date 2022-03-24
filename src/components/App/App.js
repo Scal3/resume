@@ -6,6 +6,7 @@ import MyTechsSkills from '../MyTechsSkills/MyTechsSkills';
 import MyProjects from '../MyProjects/MyProjects';
 import WorkExperience from '../WorkExperience/WorkExperience';
 import CurrentWork from '../CurrentWork/CurrentWork';
+import Contacts from '../Contacts/Contacts';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <MyProjects/>
       <WorkExperience/>
       <CurrentWork/>
+      <Contacts/>
     </div>
   );
 }

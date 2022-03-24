@@ -1,29 +1,5 @@
-.about-me {
-  border-bottom: 1px solid var(--borders-color);
-  padding: var(--padding);
-}
-
 .about-me__photo {
   width: 250px;
-}
-
-.about-me__heading {
-  color: var(--main-text-color);
-  margin-bottom: 15px;
-  position: relative;
-  z-index: 1;
-  font-size: var(--heading-font-size);
-}
-
-.about-me__heading::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 70px;
-  background-color: var(--text-background);
-  z-index: -1;
 }
 
 .about-me__text {

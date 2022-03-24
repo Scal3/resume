@@ -17,7 +17,7 @@ import googleLogo from '../../Assets/google_icon.png'
 const MyTechsSkills = () => {
   return (
     <section className='my-techs-skills component-setting'>
-      <h2 className='my-techs-skills__heading'>My techs skills</h2>
+      <h2 className='my-techs-skills__heading component-heading'>My techs skills</h2>
       <ul className='my-techs-skills__list'>
         <li className='my-techs-skills__list-item'>
           <div className='my-techs-skills__item-container'>

@@ -22,6 +22,7 @@ body {
   --links-background: rgba(255, 255, 255, 0.5);
 
   --padding: 15px 5px 15px 5px;
+  --heading-margin-bottom: 20px;
 
   --text-font-size: 20px;
   --heading-font-size: 25px;
@@ -30,11 +31,33 @@ body {
 .component-setting {
   margin: 0 auto;
   max-width: 1280px;
+  padding: var(--padding);
+  border-bottom: 1px solid var(--borders-color);
+}
+
+.component-heading {
+  font-size: var(--heading-font-size);
+  color: var(--main-text-color);
+  position: relative;
+  margin-bottom: var(--heading-margin-bottom);
+}
+
+.component-heading::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 70px;
+  background-color: var(--text-background);
+  font-size: var(--heading-font-size);
+  z-index: -1;
 }
 
 @media screen and (min-width: 768px) {
   :root {
     --padding: 10px;
+    --heading-margin-bottom: 30px;
 
     --text-font-size: 30px;
     --heading-font-size: 40px;
@@ -44,6 +67,7 @@ body {
 @media screen and (min-width: 1024px) {
   :root {
     --padding: 15px;
+    --heading-margin-bottom: 40px;
 
     --text-font-size: 35px;
     --heading-font-size: 50px;
