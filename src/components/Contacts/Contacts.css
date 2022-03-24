@@ -17,6 +17,10 @@
   align-self: flex-end;
 }
 
+.contacts__link:hover {
+  opacity: 0.5;
+}
+
 @media screen and (min-width: 768px) {
   .contacts__logo {
     width: 30px;

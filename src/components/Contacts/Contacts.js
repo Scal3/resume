@@ -14,7 +14,7 @@ const Contacts = () => {
       <ul className='contacts__links-list'>
         <li className='contacts__link-item'>
           <img className='contacts__logo' src={tgLogo} alt='tgLogo'/> 
-          <a className='contacts__description' href='https://t.me/Scal3' target='_blank' rel='noreferrer'>Telegram</a>
+          <a className='contacts__description contacts__link' href='https://t.me/Scal3' target='_blank' rel='noreferrer'>Telegram</a>
         </li>
       </ul>
     </section>
