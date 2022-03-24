@@ -7,6 +7,7 @@ import MyProjects from '../MyProjects/MyProjects';
 import WorkExperience from '../WorkExperience/WorkExperience';
 import CurrentWork from '../CurrentWork/CurrentWork';
 import Contacts from '../Contacts/Contacts';
+import Footer from '../Footer/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <WorkExperience/>
       <CurrentWork/>
       <Contacts/>
+      <Footer/>
     </div>
   );
 }
