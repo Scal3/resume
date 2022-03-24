@@ -7,3 +7,5 @@ _Just my english version of the resume_
 - React
 
 ## Status - ready
+
+[link](https://Scal3.github.io/resume)
