@@ -1,8 +1,9 @@
 .header {
   border-bottom: 1px solid var(--borders-color);
-  padding: 5px;
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
+  height: 7vh;
 }
 
 .header__logo {

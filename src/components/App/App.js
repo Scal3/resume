@@ -1,6 +1,8 @@
 import './App.css';
 
-import Header from '../Header/Header';
+import React from 'react';
+import { Fade } from 'react-reveal';
+
 import AboutMe from '../AboutMe/AboutMe';
 import MyTechsSkills from '../MyTechsSkills/MyTechsSkills';
 import MyProjects from '../MyProjects/MyProjects';
@@ -9,17 +11,31 @@ import CurrentWork from '../CurrentWork/CurrentWork';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
 
+
 const App = () => {
   return (
     <div className="App">
-      <Header/>
-      <AboutMe/>
-      <MyTechsSkills/>
-      <MyProjects/>
-      <WorkExperience/>
-      <CurrentWork/>
-      <Contacts/>
-      <Footer/>
+      <Fade top>
+        <AboutMe/>
+      </Fade>
+      <Fade left>
+        <MyTechsSkills/>
+      </Fade>
+      <Fade left>
+        <MyProjects/>
+      </Fade>
+      <Fade left>
+        <WorkExperience/>
+      </Fade>
+      <Fade left>
+        <CurrentWork/>
+      </Fade>
+      <Fade left>
+        <Contacts/>
+      </Fade>
+      <Fade left>
+        <Footer/>
+      </Fade>
     </div>
   );
 }

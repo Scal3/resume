@@ -10,6 +10,7 @@
   width: fit-content;
   color: var(--main-text-color);
   background-color: var(--text-background);
+  font-size: var(--text-font-size);
 }
 
 .project__github-link-item {

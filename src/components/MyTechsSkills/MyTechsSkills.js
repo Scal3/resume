@@ -30,7 +30,7 @@ const MyTechsSkills = () => {
           <img src={cssLogo} alt="css logo" className='my-techs-skills__item-img'/>
         </li>
         <li className='my-techs-skills__list-item'>
-          <p className='my-techs-skills__list-text'>- JS(es6+)</p>
+          <p className='my-techs-skills__list-text'>- JS</p>
           <img src={jsLogo} alt="js logo" className='my-techs-skills__item-img'/>
         </li>
         <li className='my-techs-skills__list-item my-techs-skills__list-item_position_right'>

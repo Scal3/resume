@@ -24,8 +24,8 @@ body {
   --padding: 15px 5px 15px 5px;
   --heading-margin-bottom: 20px;
 
-  --text-font-size: 20px;
-  --heading-font-size: 25px;
+  --text-font-size: 3vh;
+  --heading-font-size: 4vh;
 }
 
 .component-setting {
@@ -59,8 +59,8 @@ body {
     --padding: 10px;
     --heading-margin-bottom: 30px;
 
-    --text-font-size: 30px;
-    --heading-font-size: 40px;
+    --text-font-size: 4vh;
+    --heading-font-size: 6vh;
   }
 }
 
@@ -68,8 +68,5 @@ body {
   :root {
     --padding: 15px;
     --heading-margin-bottom: 40px;
-
-    --text-font-size: 35px;
-    --heading-font-size: 50px;
   }
 }
